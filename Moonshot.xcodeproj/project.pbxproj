@@ -17,6 +17,10 @@
 		4B795E3D2845C3A300EC7FA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B795E3C2845C3A300EC7FA4 /* ContentView.swift */; };
 		4B795E3F2845C3A400EC7FA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B795E3E2845C3A400EC7FA4 /* Assets.xcassets */; };
 		4B795E422845C3A400EC7FA4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B795E412845C3A400EC7FA4 /* Preview Assets.xcassets */; };
+		4B7BA2C728486C9F001EEC52 /* CustomDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7BA2C628486C9F001EEC52 /* CustomDivider.swift */; };
+		4B7BA2C928486D3B001EEC52 /* CrewRoster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7BA2C828486D3B001EEC52 /* CrewRoster.swift */; };
+		4B7BA2CB28487122001EEC52 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7BA2CA28487122001EEC52 /* GridLayout.swift */; };
+		4B7BA2CD284871C9001EEC52 /* ListLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7BA2CC284871C9001EEC52 /* ListLayout.swift */; };
 		4BF6ECC528482E4700037792 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF6ECC428482E4700037792 /* MissionView.swift */; };
 		4BF6ECC728485C9A00037792 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF6ECC628485C9A00037792 /* AstronautView.swift */; };
 /* End PBXBuildFile section */
@@ -33,6 +37,10 @@
 		4B795E3C2845C3A300EC7FA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4B795E3E2845C3A400EC7FA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B795E412845C3A400EC7FA4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4B7BA2C628486C9F001EEC52 /* CustomDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDivider.swift; sourceTree = "<group>"; };
+		4B7BA2C828486D3B001EEC52 /* CrewRoster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrewRoster.swift; sourceTree = "<group>"; };
+		4B7BA2CA28487122001EEC52 /* GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		4B7BA2CC284871C9001EEC52 /* ListLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListLayout.swift; sourceTree = "<group>"; };
 		4BF6ECC428482E4700037792 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
 		4BF6ECC628485C9A00037792 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,7 +77,11 @@
 			children = (
 				4B795E3A2845C3A300EC7FA4 /* MoonshotApp.swift */,
 				4B795E3C2845C3A300EC7FA4 /* ContentView.swift */,
+				4B7BA2CC284871C9001EEC52 /* ListLayout.swift */,
+				4B7BA2CA28487122001EEC52 /* GridLayout.swift */,
 				4BF6ECC428482E4700037792 /* MissionView.swift */,
+				4B7BA2C828486D3B001EEC52 /* CrewRoster.swift */,
+				4B7BA2C628486C9F001EEC52 /* CustomDivider.swift */,
 				4BF6ECC628485C9A00037792 /* AstronautView.swift */,
 				4B3E20BA284742DD00D886F0 /* Color-Theme.swift */,
 				4B3E20B42847350D00D886F0 /* Astronaut.swift */,
@@ -166,11 +178,15 @@
 				4BF6ECC528482E4700037792 /* MissionView.swift in Sources */,
 				4B3E20B52847350D00D886F0 /* Astronaut.swift in Sources */,
 				4BF6ECC728485C9A00037792 /* AstronautView.swift in Sources */,
+				4B7BA2C928486D3B001EEC52 /* CrewRoster.swift in Sources */,
 				4B3E20BB284742DD00D886F0 /* Color-Theme.swift in Sources */,
 				4B795E3D2845C3A300EC7FA4 /* ContentView.swift in Sources */,
 				4B795E3B2845C3A300EC7FA4 /* MoonshotApp.swift in Sources */,
 				4B3E20B928473A5200D886F0 /* Mission.swift in Sources */,
 				4B3E20B72847362800D886F0 /* Bundle-Decodable.swift in Sources */,
+				4B7BA2CD284871C9001EEC52 /* ListLayout.swift in Sources */,
+				4B7BA2C728486C9F001EEC52 /* CustomDivider.swift in Sources */,
+				4B7BA2CB28487122001EEC52 /* GridLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
