@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4B3E20B22846E97B00D886F0 /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B3E20B02846E97B00D886F0 /* astronauts.json */; };
-		4B3E20B32846E97B00D886F0 /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B3E20B12846E97B00D886F0 /* missions.json */; };
 		4B3E20B52847350D00D886F0 /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3E20B42847350D00D886F0 /* Astronaut.swift */; };
 		4B3E20B72847362800D886F0 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3E20B62847362800D886F0 /* Bundle-Decodable.swift */; };
 		4B3E20B928473A5200D886F0 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3E20B828473A5200D886F0 /* Mission.swift */; };
@@ -21,13 +20,13 @@
 		4B7BA2C928486D3B001EEC52 /* CrewRoster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7BA2C828486D3B001EEC52 /* CrewRoster.swift */; };
 		4B7BA2CB28487122001EEC52 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7BA2CA28487122001EEC52 /* GridLayout.swift */; };
 		4B7BA2CD284871C9001EEC52 /* ListLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7BA2CC284871C9001EEC52 /* ListLayout.swift */; };
+		4B974F7B285702E400400764 /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B974F7A285702E400400764 /* missions.json */; };
 		4BF6ECC528482E4700037792 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF6ECC428482E4700037792 /* MissionView.swift */; };
 		4BF6ECC728485C9A00037792 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF6ECC628485C9A00037792 /* AstronautView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4B3E20B02846E97B00D886F0 /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
-		4B3E20B12846E97B00D886F0 /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
 		4B3E20B42847350D00D886F0 /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
 		4B3E20B62847362800D886F0 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		4B3E20B828473A5200D886F0 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
@@ -41,6 +40,7 @@
 		4B7BA2C828486D3B001EEC52 /* CrewRoster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrewRoster.swift; sourceTree = "<group>"; };
 		4B7BA2CA28487122001EEC52 /* GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
 		4B7BA2CC284871C9001EEC52 /* ListLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListLayout.swift; sourceTree = "<group>"; };
+		4B974F7A285702E400400764 /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
 		4BF6ECC428482E4700037792 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
 		4BF6ECC628485C9A00037792 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,7 +88,7 @@
 				4B3E20B828473A5200D886F0 /* Mission.swift */,
 				4B3E20B62847362800D886F0 /* Bundle-Decodable.swift */,
 				4B3E20B02846E97B00D886F0 /* astronauts.json */,
-				4B3E20B12846E97B00D886F0 /* missions.json */,
+				4B974F7A285702E400400764 /* missions.json */,
 				4B795E3E2845C3A400EC7FA4 /* Assets.xcassets */,
 				4B795E402845C3A400EC7FA4 /* Preview Content */,
 			);
@@ -163,7 +163,7 @@
 			files = (
 				4B3E20B22846E97B00D886F0 /* astronauts.json in Resources */,
 				4B795E422845C3A400EC7FA4 /* Preview Assets.xcassets in Resources */,
-				4B3E20B32846E97B00D886F0 /* missions.json in Resources */,
+				4B974F7B285702E400400764 /* missions.json in Resources */,
 				4B795E3F2845C3A400EC7FA4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
